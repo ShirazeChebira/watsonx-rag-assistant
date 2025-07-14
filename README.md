@@ -80,16 +80,22 @@ Once running, Gradio will open either:
 
 A local URL like http://127.0.0.1:7860 (for testing on your machine), or a public shareable URL (if ```share=True``` is set in ```launch()```).
 
+---
+
 ## Demo
 
 Here’s a quick look at the application:
 
 [![RAG Assistant Screenshot](./QA_bot.png)](./QA_bot.png)
 
+---
+
 ## Credits
 
 Created by Shiraze Chebira as part of the capstone project for the Coursera specialization: 
 **Generative AI Engineering with LLMs**.
+
+---
 
 ## License
 This project is open-source and released under the MIT License.
