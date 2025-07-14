@@ -5,7 +5,7 @@ An AI-powered PDF Question Answering assistant using IBM Watsonx.ai, LangChain, 
 
 This project is a Retrieval-Augmented Generation (RAG) assistant built with [LangChain](https://www.langchain.com/), using IBM's Watsonx foundation models to understand and answer user queries based on uploaded PDF documents. The assistant is equipped to read scientific papers or business documents and provide concise, contextual answers.
 
-This project was built as part of the Coursera course: **[Generative AI Applications with RAG and LangChain](https://www.coursera.org/learn/project-generative-ai-applications-with-rag-and-langchain)** from the specialization **[Generative AI Engineering with LLMs](https://www.coursera.org/specializations/generative-ai-engineering-with-llms)**
+This project was built as part of the Coursera course: **[Generative AI Applications with RAG and LangChain](https://www.coursera.org/learn/project-generative-ai-applications-with-rag-and-langchain)** from the specialization **[Generative AI Engineering with LLMs](https://www.coursera.org/specializations/generative-ai-engineering-with-llms)**.
 
 
 ## Features
@@ -78,9 +78,7 @@ python main.py
 
 Once running, Gradio will open either:
 
-A local URL like http://127.0.0.1:7860 (for testing on your machine), or
-
-A public shareable URL (if share=True is set in launch())
+A local URL like http://127.0.0.1:7860 (for testing on your machine), or a public shareable URL (if ```share=True``` is set in ```launch()```).
 
 ## Demo
 
@@ -90,8 +88,7 @@ Here’s a quick look at the application:
 
 ## Credits
 
-Created by Shiraze Chebira as part of the capstone project for the Coursera specialization:
-**Generative AI Engineering with LLMs**
+Created by Shiraze Chebira as part of the capstone project for the Coursera specialization: **Generative AI Engineering with LLMs**.
 
 ## License
 This project is open-source and released under the MIT License.
