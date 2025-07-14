@@ -1,5 +1,5 @@
 from .loader import document_loader
-from .splitter import text_splitter
+from .splitter import split_documents
 from .embedding import get_embedding_model
 from .vectordb import create_vectorstore
 
@@ -16,6 +16,6 @@ def get_retriever(file_path, project_id):
         VectorStoreRetriever
     """
     documents = document_loader(file_path)
-    chunks = text_splitter(documents)
-    embeddings = watsonx_embedding(project_id)
-    return build_vectorstore(chunks, embeddings)
+    chunks = split_documents(documents)
+    embeddings = get_embedding_model(project_id)
+    return create_vectorstore(chunks, embeddings)

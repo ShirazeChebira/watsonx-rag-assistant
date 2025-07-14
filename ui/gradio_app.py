@@ -1,7 +1,7 @@
 import gradio as gr
 from app.llm import get_llm
-from app.retriever import build_retriever
-from app.qa_chain import build_qa_chain
+from app.retriever import get_retriever
+from app.qa_chain import create_qa_chain
 import os
 
 PROJECT_ID = os.getenv("WATSONX_PROJECT_ID")
@@ -9,8 +9,8 @@ PROJECT_ID = os.getenv("WATSONX_PROJECT_ID")
 def ask_question(file, query):
     try:
         llm = get_llm(PROJECT_ID)
-        retriever = build_retriever(file.name, PROJECT_ID)
-        qa_chain = build_qa_chain(llm, retriever)
+        retriever = get_retriever(file.name, PROJECT_ID)
+        qa_chain = create_qa_chain(llm, retriever)
         result = qa_chain.invoke(query)
         return result["result"]
     except Exception as e:

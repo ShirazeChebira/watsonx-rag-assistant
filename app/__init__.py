@@ -2,7 +2,7 @@ from .llm import get_llm
 from .splitter import split_documents
 from .retriever import get_retriever
 from .embedding import get_embedding_model
-from .loader import load_pdf
+from .loader import document_loader
 from .vectordb import create_vectorstore
 from .qa_chain import create_qa_chain
 
