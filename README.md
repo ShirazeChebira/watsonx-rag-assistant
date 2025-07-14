@@ -88,7 +88,8 @@ Here’s a quick look at the application:
 
 ## Credits
 
-Created by Shiraze Chebira as part of the capstone project for the Coursera specialization: **Generative AI Engineering with LLMs**.
+Created by Shiraze Chebira as part of the capstone project for the Coursera specialization: 
+**Generative AI Engineering with LLMs**.
 
 ## License
 This project is open-source and released under the MIT License.
