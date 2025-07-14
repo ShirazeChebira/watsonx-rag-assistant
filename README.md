@@ -54,6 +54,7 @@ To use this assistant, you need access to IBM Watsonx.ai.
 WATSONX_APIKEY=your_ibm_api_key
 WATSONX_URL=https://<region>.ml.cloud.ibm.com
 WATSONX_PROJECT_ID=your_project_id
+```
 
 ---
 
