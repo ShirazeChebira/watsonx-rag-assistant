@@ -47,7 +47,7 @@ To use this assistant, you need access to IBM Watsonx.ai.
 1. Create a free IBM Cloud account at [cloud.ibm.com](https://cloud.ibm.com/).
 2. Go to the Watsonx.ai dashboard and create a new project.
 3. Generate your API key.
-4. Copy your project ID and region-based URL (e.g., `[https://eu-de.ml.cloud.ibm.com](https://<region>.ml.cloud.ibm.com)`).
+4. Copy your project ID and region-based URL (e.g., `[https://<region>.ml.cloud.ibm.com](https://<region>.ml.cloud.ibm.com)`).
 5. Add these credentials to a `.env` file at the root of your project:
 
 ```bash
